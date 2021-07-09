@@ -325,13 +325,24 @@ p {
     font-size: 16px;
   }
   #home {
+    height: calc(100vh + 20%);
     padding: 6em 0 12em 0;
   }
   #home .my-image img {
     width: 250px;
+    margin-top: 20%;
+  }
+  #home p {
+    font-size: 16px;
+  }
+  #about {
+    padding: 5em 0 4em 0;
   }
   #about #nav-skills ul li {
     border: 0;
+  }
+  #contact {
+    padding: 5em 0 4em 0;
   }
   #contact .container .row {
     background-color: #fafaff;

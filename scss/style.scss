@@ -305,14 +305,20 @@ p {
     }
   }
   #home {
+    height: calc(100vh + 20%);
     padding: 6em 0 12em 0;
     .my-image {
       img {
         width: 250px;
+        margin-top: 20%;
       }
+    }
+    p {
+      font-size: 16px;
     }
   }
   #about {
+    padding: 5em 0 4em 0;
     #nav-skills {
       ul {
         li {
@@ -322,6 +328,7 @@ p {
     }
   }
   #contact {
+    padding: 5em 0 4em 0;
     .container {
       .row {
         background-color: $font-colour-light;
