@@ -11,7 +11,7 @@ navButtons.forEach((navButton, i) => {
   });
 });
 
-function typeWriter() {// recursion
+const typeWriter = () => {// recursion
   if (count < text.length) {
     typing.textContent += text.charAt(count);
     count++;
@@ -19,9 +19,10 @@ function typeWriter() {// recursion
   }
 }
 window.onload = function () {
+  typing.textContent = '';
   setTimeout(() => {
     typeWriter();
-  }, 1000);
+  }, 500);
 }
 
 
